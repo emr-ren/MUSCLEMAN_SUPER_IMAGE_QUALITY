@@ -1,2 +1,8 @@
 # MUSCLEMAN_SUPER_IMAGE_QUALITY
- AI-powered SRGAN for image enhancement
+ This project presents an artificial intelligence solution for enhancing low-resolution images to high-resolution using the Super-Resolution Generative Adversarial Network (SRGAN) model. SRGAN operates on the principle of generative adversarial networks (GANs), comprising a generator and a discriminator network that are trained in tandem. The generator aims to transform low-resolution images into high-resolution counterparts that are indistinguishable from real high-resolution images. Meanwhile, the discriminator evaluates the authenticity of the generated images, providing feedback for refining the generator's performance.  The repository includes a comprehensive implementation of the SRGAN architecture, alongside data preprocessing and transformation steps for preparing the image datasets. The ImageDataset class handles the loading and preprocessing of low and high-resolution image pairs for training and validation purposes. The generator network leverages a series of convolutional, residual, and upsampling blocks to upscale images, while the discriminator network assesses the fidelity of the generated images. The training process involves optimizing both networks through adversarial training, incorporating perceptual loss via a pre-trained VGG network to enhance the visual quality of the super-resolved images.  This codebase is designed to facilitate experimentation and research in image super-resolution, offering a solid foundation for further development and customization of the SRGAN model for various applications requiring image enhancement and restoration.
+ 
+![teaser (1)](https://github.com/user-attachments/assets/68eb4cf0-525f-4b25-9eb1-cfec924277fb)
+
+![Faces_example](https://github.com/user-attachments/assets/bdb44119-7fbc-41f6-8166-5f02fb87f6ec)
+
+![baboon-compare](https://github.com/user-attachments/assets/236df008-c9ea-4c8b-bfc6-181b47a78857)
